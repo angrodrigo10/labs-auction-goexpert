@@ -1,8 +1,14 @@
-#GET http://localhost:8080/auction HTTP/1.1
-#GET http://localhost:8080/auction/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
-#GET http://localhost:8080/auction/winner/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
-#GET http://localhost:8080/bid/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
-GET http://localhost:8080/user/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
+### Requisição 1: GET para listar todos leitões
+GET http://localhost:8080/auction HTTP/1.1
 
-#	router.POST("/auction", auctionsController.CreateAuction)
-#	router.POST("/bid", bidController.CreateBid)
+### Requisição 2: GET para listar leilão pelo UUID
+GET http://localhost:8080/auction/7b985cdb-82b4-4169-b2ed-6ac52eb1f84c HTTP/1.1
+
+### Requisição 3: GET para listar leitão vencedor
+GET http://localhost:8080/auction/winner/7b985cdb-82b4-4169-b2ed-6ac52eb1f84c HTTP/1.1
+
+### Requisição 4: GET para listar oferta
+GET http://localhost:8080/bid/7b985cdb-82b4-4169-b2ed-6ac52eb1f84c HTTP/1.1
+
+### Requisição 5: GET para listar usuário pelo UUID
+GET http://localhost:8080/user/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1

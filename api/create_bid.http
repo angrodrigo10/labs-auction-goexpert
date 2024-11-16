@@ -4,11 +4,6 @@ Content-Type: application/json
 
 {
     "user_id": "365fb343-e3d7-48b7-bc35-fa1a4b6a9a94",
-    "auction_id": "365fb343-e3d7-48b7-bc35-fa1a4b6a9a94",
+    "auction_id": "7b985cdb-82b4-4169-b2ed-6ac52eb1f84c",
     "amount": 10.5
 }
-
-
-#	UserId    string  `bson:"user_id"`
-#	AuctionId string  `bson:"auction_id"`
-#	Amount    float64 `bson:"amount"`
