@@ -1,0 +1,8 @@
+#GET http://localhost:8080/auction HTTP/1.1
+#GET http://localhost:8080/auction/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
+#GET http://localhost:8080/auction/winner/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
+#GET http://localhost:8080/bid/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
+GET http://localhost:8080/user/365fb343-e3d7-48b7-bc35-fa1a4b6a9a94 HTTP/1.1
+
+#	router.POST("/auction", auctionsController.CreateAuction)
+#	router.POST("/bid", bidController.CreateBid)
