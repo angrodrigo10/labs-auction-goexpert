@@ -3,7 +3,7 @@ Host: localhost:8080
 Content-Type: application/json
 
 {
-    "product_name": "Smartphone",
+    "product_name": "Smartphone xiaomi",
     "category": "eletronics",
     "description": "128GB storage",
     "condition": 0

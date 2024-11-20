@@ -24,3 +24,15 @@ Para essa tarefa, você utilizará o go routines e deverá se concentrar no proc
 - O código-fonte completo da implementação.
 - Documentação explicando como rodar o projeto em ambiente dev.
 - Utilize docker/docker-compose para podermos realizar os testes de sua aplicação.
+
+## Instruções de uso
+
+### Execução via Docker
+```bash
+docker-compose up -d
+```
+
+### Execução de testes
+```bash
+go test ./internal/infra/database/auction/ -v
+```
